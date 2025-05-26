@@ -4,7 +4,7 @@ repositorio de trabajo especial de grado llamado "Estratificación del riesgo de
 # *Tabla de Contenidos
 - [Resumen](#about_project)
 - [Conjunto de datos](#about_repo)
-- Presentación
+- [Presentación](#presentacion)
 
 
 ## Resumen <a name="about_project"></a>
@@ -19,6 +19,6 @@ La base de datos utilizada fue PAF prediction Challenge de physionet disponible 
 
 El estudio tomó como base la variación de frecuencia cardíaca (VFC) tanto de segmentos de ECG de 30 minutos como de 5 minutos e inició con una etapa de preprocesamiento, en la cual se extrajeron los intervalos R-R, para posteriormente evaluar 12 índices de VFC en el dominio temporal, frecuencial y no lineal haciendo uso de métodos estadísticos, espectrales, gráficas de recurrencia y gráficas de Poincaré. Estos índices, organizados como vectores, luego fueron utilizados como entrada a los modelos de aprendizaje automático utilizados: el bosque aleatorio y el perceptrón multicapas (MLP).  Los puntajes de exactitud, precisión, sensibilidad y puntaje F1 de los segmentos de 30 minutos fueron 94.12\%, 95.29\%, 94.12\% y 94.18\% respectivamente para el MLP y 76.47\%, 80.88\%, 77.65\%, para el bosque aleatorio. Por otro lado, para los segmentos de 5 minutos, los puntajes fueron 82.93\%, 83.56\%, 82.93\% y 82.53\% para el MLP y 75.61\%, 75.92\%, 75.66\% para el bosque aleatorio.
 
-## Presentación
+## Presentación <a name="presentacion"></a>
 
 En el siguiente enlace se comparte la presentación del proyecto realizado https://www.canva.com/design/DAF61E476R0/kBd6poLV76_kSFZ82wtO6Q/view?utm_content=DAF61E476R0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=had336b2d0a#18
